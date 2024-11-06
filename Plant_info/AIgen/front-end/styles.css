@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#uploadedImage {
+    width: 100%;
+    max-width: 300px;
+    display: none;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identification de Plantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur notre application d'identification de plantes !</h1>
+        <p>Téléchargez une photo d’une plante et découvrez des informations détaillées.</p>
+
+        <input type="file" id="fileInput" accept="image/*">
+        <button onclick="uploadImage()">Identifier la Plante</button>
+
+        <div id="result">
+            <h3>Résultat :</h3>
+            <img id="uploadedImage" src="" alt="Image téléchargée">
+            <p id="responseText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
